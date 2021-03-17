@@ -1,6 +1,6 @@
 import requests as Req
 
-cep = int(input("Digite o CeP para consulta: "))
+cep = input("Digite o CeP para consulta: ")
 
 # Consultando as informações do CEP #
 url = f'http://viacep.com.br/ws/{cep}/json'
