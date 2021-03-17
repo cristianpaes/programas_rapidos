@@ -1,5 +1,6 @@
 import requests as Req
 
+# Não transformar a entrada de dados em número #
 cep = input("Digite o CeP para consulta: ")
 
 # Consultando as informações do CEP #
