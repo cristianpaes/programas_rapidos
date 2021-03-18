@@ -1,13 +1,8 @@
 import random
-
-# Caracteres usados para formar senhas #
-let_minus = 'abcdefghijklmnopqrstuvwxyz'
-let_maius = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-numer = '0123456789'
-caract = '#@$%&*-=+!'
+import string
 
 # Agrupa todos os caracteres #
-grupo = let_minus + let_maius + numer + caract
+grupo = string.ascii_letters + string.digits + string.ascii_lowercase + string.ascii_uppercase + string.punctuation
 
 # Definindo o tamanho da senha #
 tam = int(input("Digite o tamanho de sua senha para ser gerada: "))
